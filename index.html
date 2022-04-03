@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--  meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css ">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BT5</title>
+  </head>
+  <body>
+    <div class="box">
+       <h2>Form Box</h2>
+    </div>
+    <div class="container">
+      <h1 class=""> Form</h1>
+      <hr>
+      <!-- form starts -->
+      <form action="">
+        <div class="mb-3">
+          <label for="f_name" class="form-label"> First Name </label>
+          <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your first name">
+        </div>
+        <div class="mb-3">
+          <label for="l_name" class="form-label"> Last Name </label>
+          <input type="text" class="form-control l_name" id="l_name" placeholder="Enter your last name">
+        </div>
+        <div class="mb-3">
+          <label for="emailaddress" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="emailaddress" placeholder="Enter your email address">
+        </div>
+        
+        <div class="mb-3">
+          <label for="password1" class="form-label">Password</label>
+          <input type="password1" class="form-control password1" id="password1" name="password1" placeholder="Enter your Password" >
+        </div>
+
+        <div class="mb-3">
+          <label for="age" class="form-label"> Age</label>
+          <input type="number" class="form-control age" id="age" placeholder="Type your age">
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input check1" id="check1" name="password1" placeholder="Enter your Password" >
+          <label for="check1" class="form-check-label">Check Me Out</label>
+        </div>
+        <button type="submit" class="btn btn-primary"> Submit</button>
+        
+        
+      </form>
+      <br>
+      <h1 class="mb-3 form-label">Form grid</h1>
+      <hr>
+      <form action="" class="row g-3">
+        <div class="col-md-6">
+          <label for="f_name" class="form-label"> First Name </label>
+          <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your first name">
+        </div>
+        <div class="col-md-6">
+          <label for="l_name" class="form-label"> Last Name </label>
+          <input type="text" class="form-control l_name" id="l_name" placeholder="Enter your last name">
+        </div>
+        <div class="col-md-12">
+          <label for="emailaddress" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="emailaddress" placeholder="Enter your email address">
+        </div>
+        <div class="col-md-6">
+          <label for="city" class="form-label"> City</label>
+          <input type="text" class="form-control city" id="city" placeholder="Select your city">
+        </div>
+        <div class="col-md-4">
+          <label for="upzila" class="form-label"> Upzila</label>
+          <select id="upzila" class="form-select">
+            <option selected">Upzila</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="zip" class="form-label"> Zip</label>
+          <input type="text" class="form-control zip" id="zip" placeholder="Zip Code">
+        </div>
+        <div class="col-md-12">
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input check1" id="check1" name="password1" placeholder="Enter your Password" >
+            <label for="check1" class="form-check-label">Check Me Out</label>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary"> Submit</button>
+          
+        </div>
+      </form>  
+        <!-- form ends -->  
+
+    </div>
+    <br>
+
+
+    
+
+
+
+    <!-- js links -->
+    
+    <script src="js/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
